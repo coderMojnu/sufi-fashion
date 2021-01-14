@@ -4,30 +4,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 /*NAVIGATION BAR START*/
-.nav-bar {
-    margin-top: 20px;
-}
-ul {
+header ul {
     text-align: right;
-}
-ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 10px;
-}
-ul li a {
-    text-decoration: none;
-    color: #3C3C3C;
-    font-weight: 600;
-    padding: 10px;
-}
-ul li a:hover {
-    color: blue;
 }
 /*NAVIGATION BAR END*/
 h1 {
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 2.6em;
     font-weight: bold;
 }
 h1 span {
@@ -38,7 +21,8 @@ h3, h4 {
 }
 /*Logo Image*/
 #logo-image {
-    height: 150px;
+    height: 120px;
+    width: 120px;
 }
 #lady-image {
     width: 100%;
@@ -58,6 +42,9 @@ h3, h4 {
     font-weight: 900;
     font-size: 1.6em;
 }
+.shaddow {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
 .btn-buy {
     background-color: #A4BC46;
     padding: 20px 30px 20px 30px;
@@ -67,8 +54,8 @@ h3, h4 {
     border: 0;
 }
 .icon-image {
-    height: 100px;
-    width: 80px;
+    height: 120px;
+    width: 100px;
 }
 .shopping-image {
     width: 100%;
@@ -81,6 +68,38 @@ h3, h4 {
     border: 0;
 }
 .form-area {
-    
     background-color: lightblue;
+}
+.text-input {
+    float: left;
+    width: 100%;
+    min-height: 75px;
+    outline: none;
+    resize: none;
+    border: 1px solid grey;
+    }
+/*RESPONSIVE DESIGN*/
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 1.7em;
+    }
+    #lady-image {
+        margin-top: 10px;
+    }
+    .icon-image {
+        margin: 0 auto;
+    }
+    .shopping-image {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .form-area h3 {
+        margin-top: 30px;
+    }
+    .order-image {
+        order: 0;
+    }
+    .icon-card-order {
+        order: 1;
+    }
 }
