@@ -4,9 +4,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 /*NAVIGATION BAR START*/
-header ul {
-    text-align: right;
-}
+
 /*NAVIGATION BAR END*/
 h1 {
     text-transform: uppercase;
@@ -72,13 +70,17 @@ h3, h4 {
 }
 .text-input {
     width: 100%;
-    min-height: 75px;
+    min-height: 100px;
     outline: none;
     resize: none;
     border: 1px solid grey;
     }
 /*RESPONSIVE DESIGN*/
 @media (max-width: 767.98px) {
+    #navbarNav {
+        display: flex;
+        justify-content: flex-start;
+    }
     h1 {
         font-size: 1.7em;
     }
