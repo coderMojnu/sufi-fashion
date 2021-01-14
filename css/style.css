@@ -1,3 +1,8 @@
+body {
+    color: #3C3C3C;
+    font-size: 1.24em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 /*NAVIGATION BAR START*/
 .nav-bar {
     margin-top: 20px;
@@ -14,16 +19,64 @@ ul li a {
     text-decoration: none;
     color: #3C3C3C;
     font-weight: 600;
+    padding: 10px;
 }
 ul li a:hover {
     color: blue;
 }
 /*NAVIGATION BAR END*/
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+h1 span {
+    color: #FABE4C;
+}
+h3, h4 {
+    font-weight: 600;
+}
 /*Logo Image*/
 #logo-image {
     height: 150px;
 }
 #lady-image {
-    width: 90%;
+    width: 100%;
     height: 450px;
+    margin: 0 auto;
+}
+.img-div {
+    width: 100%;
+    height: 300px;
+    background-color: #F1F1F1;
+}
+.card-image {
+    width: 70%;
+    height: 250px;
+}
+.dollar {
+    font-weight: 900;
+    font-size: 1.6em;
+}
+.btn-buy {
+    background-color: #A4BC46;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    width: 170px;
+    font-weight: 600;
+    border: 0;
+}
+.icon-image {
+    height: 100px;
+    width: 80px;
+}
+.shopping-image {
+    width: 100%;
+}
+.jacket-card {
+    border: 0;
+}
+.jacket-card-footer {
+    background-color: white;
+    border: 0;
 }
