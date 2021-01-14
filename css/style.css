@@ -77,10 +77,6 @@ h3, h4 {
     }
 /*RESPONSIVE DESIGN*/
 @media (max-width: 767.98px) {
-    #navbarNav {
-        display: flex;
-        justify-content: flex-start;
-    }
     h1 {
         font-size: 1.7em;
     }
