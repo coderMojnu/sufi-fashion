@@ -1,0 +1,29 @@
+/*NAVIGATION BAR START*/
+.nav-bar {
+    margin-top: 20px;
+}
+ul {
+    text-align: right;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 600;
+}
+ul li a:hover {
+    color: blue;
+}
+/*NAVIGATION BAR END*/
+/*Logo Image*/
+#logo-image {
+    height: 150px;
+}
+#lady-image {
+    width: 90%;
+    height: 450px;
+}
